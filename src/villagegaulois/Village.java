@@ -70,9 +70,9 @@ public class Village {
 	 * 
 	 * @param vendeur   : un gaulois habitant le village
 	 * @param produit   : nom du produit Ã  vendre
-	 * @param nbProduit : nombre de produit Ã  vendre
-	 * @return le numÃ©ro de l'Ã©tal oÃ¹ c'est installÃ© le vendeur ou -1 s'il n'en
-	 *         a pas trouvÃ©
+	 * @param nbProduit : nombre de produit à vendre
+	 * @return le numéro de l'étal où c'est installé le vendeur ou -1 s'il n'en
+	 *         a pas trouvé
 	 */
 	public int installerVendeur(Gaulois vendeur, String produit,
 			int nbProduit) {
