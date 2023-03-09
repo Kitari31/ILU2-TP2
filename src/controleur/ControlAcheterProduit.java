@@ -14,8 +14,6 @@ public class ControlAcheterProduit {
 		this.controlVerifierIdentite = controlVerifierIdentite;
 		this.controlTrouverEtalVendeur = controlTrouverEtalVendeur;
 	}
-
-	//TODO a completer
 	
 	public Boolean existVendeur(String produit) {
 		return!(village.rechercherVendeursProduit(produit)==null);
@@ -31,7 +29,6 @@ public class ControlAcheterProduit {
 				numeroVendeur++;
 				}
 		}
-		//Je presume que ça pourrait être optimisé
 		String[] vendeursProduit = new String[numeroVendeur];
 		for (int j = 0; j < vendeursProduit.length; j++) {
 			vendeursProduit[j]=vendeurs[j];
